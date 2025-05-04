@@ -98,17 +98,17 @@ export const RESUME_DATA = {
       imageLink: "https://res.cloudinary.com/dptxufghg/image/upload/v1746347948/WhatsApp_Image_2025-05-04_at_14.08.52_2db2370e_lsada5.jpg",
       projectDetailsLink: "https://github.com/ujjawal-Arora/KarnaDaan",
     },
-    {
-      name: "FitWave",
-      link: "https://www.github.com/AadiVerma/FitWave",
-      badges:["Fitness","Ai","Full Stack"],
-      title: "FitWave",
-      date:"September 2024 - November 2024",
-      description:
-        "FitWave is a fitness app that uses AI to create personalized workout plans and nutrition guides. It tracks user progress and provides real-time feedback. The app is designed to help users achieve their fitness goals efficiently.",
-      imageLink: "https://res.cloudinary.com/dq93uuksm/image/upload/v1744980926/Screenshot_2025-04-18_182516_dohmrn.png",
-      projectDetailsLink: "https://github.com/AadiVerma/FitWave",
-    },
+    // {
+    //   name: "FitWave",
+    //   link: "https://www.github.com/AadiVerma/FitWave",
+    //   badges:["Fitness","Ai","Full Stack"],
+    //   title: "FitWave",
+    //   date:"September 2024 - November 2024",
+    //   description:
+    //     "FitWave is a fitness app that uses AI to create personalized workout plans and nutrition guides. It tracks user progress and provides real-time feedback. The app is designed to help users achieve their fitness goals efficiently.",
+    //   imageLink: "https://res.cloudinary.com/dq93uuksm/image/upload/v1744980926/Screenshot_2025-04-18_182516_dohmrn.png",
+    //   projectDetailsLink: "https://github.com/AadiVerma/FitWave",
+    // },
   
     {
       name: "Expense Tracker",
