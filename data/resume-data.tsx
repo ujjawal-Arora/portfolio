@@ -90,9 +90,9 @@ export const RESUME_DATA = {
     {
       name: "Karan Daan",
       link: "",
-      badges: ["Donation", "Community", "Transparency", "Next.js"],
+      badges: ["MERN", "Full Stack", "Donation", "Community"],
       title: "Karan Daan",
-      date: "Janaury 2024",
+      date: "May 2025",
       description:
         "Karan Daan is a donation platform designed to bridge the gap between donors and beneficiaries. It simplifies the donation process, ensures secure transactions, promotes transparency, and fosters a strong community of support and accountability. With intelligent categorization, it maximizes the impact of every contribution while remaining easy to use for all.",
       imageLink: "https://res.cloudinary.com/dptxufghg/image/upload/v1746347948/WhatsApp_Image_2025-05-04_at_14.08.52_2db2370e_lsada5.jpg",
@@ -112,8 +112,8 @@ export const RESUME_DATA = {
   
     {
       name: "Expense Tracker",
-      link: "https://your-expense-tracker-link.com", 
-      badges: ["Next.js", "React", "Node.js", "Tailwind CSS"],
+      link: "",
+      badges: ["MERN", "Full Stack", "Finance"],
       title: "Expense Tracker",
       date: "July 2024",
       description:
