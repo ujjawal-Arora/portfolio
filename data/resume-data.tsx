@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/India",
   about: "Hey, I'm Ujjawal — a 20-year-old tech enthusiast and self-taught developer from India, with a strong interest in system-level problem solving, competitive programming, and building practical software solutions. I spend a lot of time sharpening my skills on platforms like LeetCode, diving into DSA, I'm fascinated by how systems work under the hood.I'm currently focused on growing as a full-stack developer, Always keeping performance and user experience in mind. I believe in learning by doing and I'm always curious about what I can build next",
   aboutBulletPoints: [
-    "Associate Software Developer Engineer at ",
+    "Associate Software Developer Engineer Intern at ",
     "Challenging myself to build a product",
     "Always learning new things",
     "Looking for opportunities to grow and learn",
