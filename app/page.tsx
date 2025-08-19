@@ -98,9 +98,11 @@ const page = () => {
           </p>
 
           <div className='mt-2'>
-            {RESUME_DATA.aboutBulletPoints.map((item) => (
+            {RESUME_DATA.aboutBulletPoints.map((item, idx) => (
                 <p className='mb-1'>
-                    • {item}
+                    • {item} {idx === 0 && (
+                      <a href="https://www.oyorooms.com/" target='_blank' rel='noopener noreferrer' className='text-red-600 hover:text-red-700 font-bold'>@OYO</a>
+                    )}
                 </p>
             ))}
           </div>
@@ -283,6 +285,43 @@ const page = () => {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {education.activities}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section id='work-experience'> 
+          <h2 className="text-xl font-bold">Work Experience</h2>
+          {RESUME_DATA.work.map((work) => {
+            return (
+              <Card key={work.company}>
+                <CardHeader>
+                  <div className="flex items-center gap-x-3">
+                      {/** Render remote logo if provided */}
+                      {/** Using <img> to avoid Next Image domain config */}
+                      { (work as any).logoUrl ? (
+                        <img src={(work as any).logoUrl} alt={`${work.company} logo`} className="w-12 h-12 rounded-lg object-contain" />
+                      ) : null }
+                      <div className='flex-grow'>
+                        <div className="flex items-center justify-between gap-x-2 text-base">
+                          <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                            <a className="hover:underline" href={work.link} target="_blank" rel="noopener noreferrer">
+                              {work.company}
+                            </a>
+                          </h3>
+                          <div className="text-sm tabular-nums text-gray-500">
+                            {work.start} - {work.end}
+                          </div>
+                        </div>
+
+                        <h4 className="font-mono text-sm leading-none max-w-[500px]">
+                          {work.title}
+                        </h4>
+                      </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {work.description}
                 </CardContent>
               </Card>
             );
